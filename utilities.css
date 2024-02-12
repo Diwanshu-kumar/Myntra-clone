@@ -1,0 +1,42 @@
+.vertical-center{
+    align-items: center;
+}
+
+.horizontal-center{
+    justify-content: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.right-end{
+    right: 0;
+}
+
+.passport-size{
+    height: auto;
+    /* height: 18rem; */
+    /* width: 13rem; */
+    max-width: 100%;
+}
+
+.headline{
+    padding-left: 4vw;
+    color: rgb(71, 67, 67);
+    font-family: 'Poppins', sans-serif;
+    margin: 3em 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 0px;
+    margin: 0px;
+    column-gap: 0;
+    
+}
+
+.zero-padding{
+    padding: 0;
+}
